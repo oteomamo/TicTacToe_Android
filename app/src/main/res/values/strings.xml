@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="reset_button_text">Reset</string>
+    <string name="startGameError">Error: At least one name has not been entered.</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string name="start_game">Start Game</string>
+    <string name="records">Records</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="submit">Submit</string>
+    <string name="player_x_s_turn">Player X\'s Turn</string>
+    <string name="player_one">Player One:</string>
+    <string name="select_player_one">Select Player One</string>
+    <string name="player_two">Player Two:</string>
+    <string name="select_player_two">Select Player Two</string>
+    <string name="start_game2">Start Game</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="view_leaderboard">View Leaderboard</string>
+    <string name="play_again">Play Again</string>
+    <string name="x_won">X Won!</string>
+    <string name="start_blitz_game">Start Blitz Game</string>
+    <string name="timer">00:00</string>
+    <string name="no_winner">No Winner! Time\'s Up!</string>
+    <string name="back_button_description">Navigate back</string>
+</resources>

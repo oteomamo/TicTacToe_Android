@@ -1,0 +1,20 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/winScreenFragment">
+
+    <fragment
+        android:id="@+id/winScreenFragment"
+        android:name="com.zybooks.tictactoe.WinScreen"
+        android:label="WinScreen">
+        <action
+            android:id="@+id/show_leaderboard"
+            app:destination="@id/leaderboardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/leaderboardFragment"
+        android:name="com.zybooks.tictactoe.LeaderboardFragment"
+        android:label="LeaderboardFragment"
+        tools:layout="@layout/fragment_leaderboard" />
+</navigation>
